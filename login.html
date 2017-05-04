@@ -1,0 +1,33 @@
+<ion-view hide-nav-bar="true"></ion-view>
+<ion-view hide-back-button="true"></ion-view>
+<div class="modal"> 
+ <ion-header-bar>
+    
+  </ion-header-bar>
+
+<div class="bar bar-header bar-positive">
+  <h1 class="title">Hitachi Conf App</h1>
+</div>
+
+  <ion-content>
+  <div>
+  <img src="pics/hitachi.jpg" width="100%" height="100%"></img>
+  </div>
+    <form ng-submit="doLogin(loginData)">
+      <div class="list" ng-hide="myVar">
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Username</span>
+          <input type="text" placeholder="Username" ng-model="loginData.username">
+        </label>
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="Password" ng-model="loginData.password">
+        </label>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit"  ng-model="myVar" ng-click="showToast()">Log in</button>
+
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</div>

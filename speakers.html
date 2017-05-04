@@ -1,0 +1,12 @@
+<ion-view title="Speakers">
+   
+    <ion-content class="has-header">
+        <ion-list>
+<ion-item ng-repeat="speaker in speakers|filter: query" class="item-avatar-left item-text-wrap" href="#/app/speakers/{{speaker.id}}">               
+ <img ng-src="pics/{{speaker.pic}}">
+                {{speaker.name}}
+                <p>{{speaker.title}}</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

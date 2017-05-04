@@ -1,0 +1,87 @@
+/* Empty. Add your own CSS if you like */
+
+
+
+ion-content{
+	background-image: url(pics/background.jpg);
+
+}
+ion-nav-view{
+	background-color:	#F0F8FF;
+}
+ion-header-bar{
+	background-color:	#F0F8FF
+}
+
+#maintitle
+{
+	colour:#000000 !important;
+	text-align: center;
+}
+ion-item-menu-close{
+	colour:#ffffff !important;
+}
+.title{
+	color: #ffffff !important;
+}
+
+
+
+ion-view-view-title
+{
+	colour:#ffffff !important;
+}
+.menu-close{
+	colour:white !important;
+}
+
+.menu-icon { color: white !important; }
+
+.buttons-left{
+	colour:#ffffff !important;
+}
+
+
+#test{
+	width:306px;
+	height: 330px;
+
+}
+.item-avatar-left.item.item-complex
+{
+	background-color:#ccffcc
+
+}
+a.item-content.ng-binding
+{
+	background-color: #F0F8FF;
+
+}
+ion-item.item-thumbnail-left.item-text-wrap.item.item-complex.item-left-editable.item-right-editable
+{
+		background-color: #F0F8FF;
+
+}
+ion-item.item.item-complex,ion-list,ion-view{
+background-color: #ccffcc;
+}
+.item{
+	background-color:	#F0F8FF;
+}
+.item-content{
+		background-color:	#F0F8FF;
+
+}
+.bar-stable.bar.bar-header
+{
+	background-color:	#4169E1;
+}
+.scroll {
+    height: 100%;
+}
+ 
+#map {
+    width: 100%;
+    height: 100%;
+}
+

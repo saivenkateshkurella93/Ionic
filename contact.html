@@ -1,0 +1,57 @@
+<body ng-app="starter">
+<ion-view title="Contact">
+    <ion-content  ng-controller="ContactCtrl" class="has-header">
+    <div>
+        <div class="list card">
+            <div class="item item-body">
+                <h3>Hitachi Consulting Corporation,</h3>
+                <p> Nanakramguda,Gachibowly,</p><p>Hyderabad-500032, Telangana</p>
+				<p>Contact Number:40343000</p>
+				<p>email: careers@hitachiconsulting.com</p>
+                <label class="item">
+                <input type="text" placeholder="firstname" id="uname1" ng-model="firstname">
+                </label>
+                <label class="item">
+                                <input type="text" placeholder="lastname" id="uname2" ng-model="lastname">
+ </label>
+                <label class="item">
+
+                 <button class="button button-block button-positive" type="submit"   ng-click="insertVal(firstname,lastname)">Insert</button>
+                 </label>
+
+                 <label class="item">
+                  <button class="button button-block button-positive"  id="select" ng-click="selectVal()">Select</button>
+                  </label>
+<label class="item">
+                  {{firstname}} {{lastname}}
+                    </label>
+
+<ion-list>
+  <ion-item ng-repeat="name in names | filter: searchKey">
+    <h3> {{name.fname}} {{name.lname}}</h3>
+  </ion-item>
+</ion-list>
+
+
+                     <ion-list>
+                                    
+				<div src="http://hitachiconsulting.co.in"><div>
+            </div>
+            <div class="item item-body">
+                <div class="item item-thumbnail">
+                <img src="pics/hitachiConsulting.jpg" width="300" height="150">
+            </div>
+            </div>
+
+
+
+
+ </ion-view>
+ <ion-content ng-controller="MapController">
+    <div id="map" data-tap-disabled="true"></div>
+</ion-content>
+    <script>
+      document.getElementById("select").onclick = function () {
+        location.href = "https://www.tutorialspoint.com/";
+    </script>
+    </body>
