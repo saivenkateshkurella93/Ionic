@@ -1,9 +1,5 @@
 // Ionic Starter App
 
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-// 'starter.controllers' is found in controllers.js
 var db=null;
 angular.module('starter', ['ionic','ngResource','ngCordova'])
 
@@ -43,7 +39,7 @@ $ionicPlatform.registerBackButtonAction(function (event) {
 
 
   $ionicPlatform.ready(function() {
-    // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
+    // Hiding the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
 
 
@@ -67,10 +63,8 @@ cordova.plugins.notification.local.schedule({
 
   }
   if (window.StatusBar) {
-      // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
-    //db = $cordovaSQLite.openDB({name:"my.db",location:"default"});
     db = $cordovaSQLite.openDB({ name: 'my.db',location: 'default'});
     console.log($cordovaSQLite.openDB({ name: 'my.db',location: 'default'}));
    $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS people (id integer primary key, firstname text, lastname text)");
@@ -212,7 +206,7 @@ cordova.plugins.notification.local.schedule({
       }
     }
   });
-  // if none of the above states are matched, use this as the fallback
+  // if none of the above states are matched, login is the fallback
   $urlRouterProvider.otherwise('/login');
 })
 .constant('SERVER_PATH','http://localhost:5000')
