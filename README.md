@@ -18,5 +18,5 @@ The main idea behind this application is provide all the details, updates for th
 - HTML5
 - CSS3
 
-The implementation was all component based. I initially made a skeleton structure of thr app and then kept adding the coomponets, data and connections into the application. The aim was to accomodate all the information that a guest would need when he/she attends the event, also enabling push notifications so that users would not miss out any announcements, important updates regarding the event. This is a naive attempt to get familiar with Hybrid mobile application development.
+The implementation was all component based. I initially made a skeleton structure of the app and then kept adding the componets, data and connections into the application. The aim was to accommodate all the information that a guest would need when he/she attends the event, also enabling push notifications so that users would not miss out any announcements, important updates regarding the event. This is a naive, yet successful attempt to get familiar with Hybrid mobile application development.
 
