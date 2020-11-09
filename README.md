@@ -6,7 +6,7 @@ This App is successfully deployed in Mobile.
 This app was built to serve any events, conferences, hackathons, etc.
 This app shows information about the events to be taken place in that day, about the speakers, presenters, schedule etc.
 This is a cross platform compatible mobile application built using Ionic Framework.
-The main idea behind this application is provide all the details, updates for the event. Push notifications have also been implemented.
+The main idea behind this application is provide all the details, updates for the event. Push notifications have also been implemented. This repository includes screenshots of the screens in the app.
 
 # Technologies used in this App
 
