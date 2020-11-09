@@ -2,13 +2,12 @@ angular.module('starter')
 
 .controller('AppCtrl', function($state,$scope, $ionicModal,$ionicPopup,$timeout,$cordovaSQLite) {
 
-  // Form data for the login modal
+  // Form data for the login modal for test, before connecting to server
   $scope.loginData = {
     username:"sai",
     password:"venky99999"
   };
 
-  // Create the login modal that we will use later
   $ionicModal.fromTemplateUrl('templates/login.html', {
     scope: $scope
   }).then(function(modal) {
@@ -95,9 +94,8 @@ $scope.showAlert = function() {
   $scope.doLogin = function() {
      
     console.log('Doing login', $scope.loginData);
+  // Form data for the login modal for test, before connecting to server
 
-    // Simulate a login delay. Remove this and replace with your login
-    // code if using a login system
     if($scope.loginData.username=="sai" && $scope.loginData.password=="venky99999")
     {
                
