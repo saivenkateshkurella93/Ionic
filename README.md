@@ -13,8 +13,8 @@ The main idea behind this application is provide all the details, updates for th
 - Ionic Framework: Ionic is an open-source SDK for hybrid mobile app development. It is a powerful HTML5 SDK that helps to build native-feeling mobile apps using web technologies like HTML, CSS, and Javascript.
 - Apache Cordova: Apache Cordova is a set of device APIs that allow a mobile app developer to access native device function such as the camera or accelerometer from JavaScript.
 - cordova-sqlite-storage: Cross-platform SQLite storage plugin for Cordova
+- AngularJS
 - Javascript
 - HTML5
 - CSS3
-- AngularJS
 
