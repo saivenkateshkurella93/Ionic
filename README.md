@@ -8,7 +8,7 @@ This app shows information about the events to be taken place in that day, about
 This is a cross platform compatible mobile application built using Ionic Framework.
 The main idea behind this application is provide all the details, updates for the event. Push notifications have also been implemented. This repository includes screenshots of the screens in the app.
 
-# Technologies used in this App
+# Technologies used in this App & Implementation
 
 - Ionic Framework: Ionic is an open-source SDK for hybrid mobile app development. It is a powerful HTML5 SDK that helps to build native-feeling mobile apps using web technologies like HTML, CSS, and Javascript.
 - Apache Cordova: Apache Cordova is a set of device APIs that allow a mobile app developer to access native device function such as the camera or accelerometer from JavaScript.
@@ -17,4 +17,6 @@ The main idea behind this application is provide all the details, updates for th
 - Javascript
 - HTML5
 - CSS3
+
+The implementation was all component based. I initially made a skeleton structure of thr app and then kept adding the coomponets, data and connections into the application. The aim was to accomodate all the information that a guest would need when he/she attends the event, also enabling push notifications so that users would not miss out any announcements, important updates regarding the event. This is a naive attempt to get familiar with Hybrid mobile application development.
 
