@@ -24,6 +24,6 @@ The implementation was all component based. I initially made a skeleton structur
 
 - Upadate to latest Ionic and Angular versions.
 - Lay more emphasis on the UX.
-- Deploy the application in a server , connect with the databases of the event organization.
+- Deploy the application in a server, connect with the databases of the event organization.
 - Write unit test cases to make the app more secured.
 
